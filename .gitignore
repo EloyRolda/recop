@@ -1,0 +1,55 @@
+# ─── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ─── Testing / coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.mypy_cache/
+.ruff_cache/
+.uv-cache/
+
+# ─── Configuración local (NUNCA commitear) ────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ─── Datos locales de desarrollo ───────────────────────────────────────────────
+postgres_data/
+kafka_data/
+*.sqlite
+*.sqlite3
+*.db
+
+# ─── Logs / runtime ────────────────────────────────────────────────────────────
+*.log
+logs/
+*.pid
+tmp/
+run/
+
+# ─── IDEs / editores ───────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ─── Documentación generada ────────────────────────────────────────────────────
+site/
