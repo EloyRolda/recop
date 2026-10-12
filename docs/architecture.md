@@ -4,6 +4,9 @@ Documento de decisiones de diseño. Cada decisión está escrita con su *por qu�
 para que las conversaciones futuras tengan contexto y no se revierta todo cada
 vez que aparece una idea nueva.
 
+> El contrato de la API está en [`api.md`](./api.md). Este documento explica
+> **por qué**; aquel dice **qué**.
+
 ---
 
 ## 1. El producto: qué es un "servidor"
