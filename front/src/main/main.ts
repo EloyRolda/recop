@@ -25,6 +25,7 @@ const DEFAULT_TIMEOUT_MS = 10_000;
 
 // Permisos que la ventana puede pedir. El micrófono es para los canales de voz
 // y las notificaciones avisan de menciones con la ventana en segundo plano.
+//epico
 const ALLOWED_PERMISSIONS = new Set(['media', 'clipboard-sanitized-write', 'notifications']);
 
 function createWindow(): void {
