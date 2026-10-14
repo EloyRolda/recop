@@ -1,7 +1,7 @@
 {
   "name": "recop-desktop",
   "productName": "Recop",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Cliente de escritorio de Recop: tu chat, tu máquina, tu puerto.",
   "main": "dist/main.js",
   "private": true,
@@ -13,8 +13,18 @@
     "dev": "npm run build && electron . --dev"
   },
   "devDependencies": {
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
     "electron": "^44.7.0",
     "esbuild": "^0.28.2",
     "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "feather-icons": "^4.29.2",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "zustand": "^5.0.15"
   }
 }
